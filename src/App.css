@@ -1,0 +1,81 @@
+/*============================ Header Component======================*/
+
+.Logo img {
+  height: 80px;
+  width: 100px;
+}
+
+.Header {
+  margin-right: 10%;
+  margin-left: 10%;
+}
+
+/*=============================Footer Component=============================*/
+
+.Footer {
+  margin-top: 50px;
+  border-top: solid 1px lightgray;
+  padding-right: 10%;
+  padding-left: 10%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.Footer h1 {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.Footer ul {
+  padding-top: 5%;
+  border-bottom: solid 1px;
+}
+
+/*=============================Top Menu Component=============================*/
+
+.TopMenu {
+  display: flex;
+  padding-right: 10%;
+  padding-left: 10%;
+  position: sticky;
+  z-index: 2000;
+  top: 0;
+  background-color: white;
+}
+.TopMenu ul {
+  text-align: center;
+}
+.TopMenu ul li {
+  font-size: 20px;
+  padding-left: 30px;
+  display: inline;
+}
+
+.Cart {
+  float: right;
+}
+
+/*===========================Main Page=========================================*/
+
+.MainPage div {
+  margin-top: 50px;
+}
+
+.newcollection img {
+  width: 100%;
+}
+.featured img {
+  padding-left: 20px;
+  padding-right: 20px;
+
+  width: 500px;
+  height: 500px;
+}
+.featured {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.featured > div {
+  flex: 1 1 150px;
+}
