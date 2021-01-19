@@ -1,5 +1,7 @@
 import React from 'react';
 import './App.css';
+import './Comp-CSS/TitleTag.css'
+import './Comp-CSS/ShopNow.css'
 //import axios from 'axios';
 
 //============== Importing Browser Routet======================
@@ -20,12 +22,17 @@ import NewIn from './Components/NewIn/NewIn';
 import Cart from './Components/Cart/Cart';
 import NotFound from './Components/NotFound';
 import MyAccount from './Components/Header/MyAccount/MyAccount';
+import AboutUs from './Components/Footer/AboutUs';
+import PrivacyPolicy from './Components/Footer/PrivacyPolicy';
+import ContactUs from './Components/Footer/ContactUs';
+import ScrollToTop from './Components/ScrollToTop';
 
 function App() {
  
     return (
       <Router>
       <div>
+        <ScrollToTop/>
         <Header/>
 
         <TopMenu/>
@@ -40,6 +47,12 @@ function App() {
           <Route path= "/collections/sale" component= {Sale} />
           <Route path= "/collections/exclusives" component= {Exclusives} />
           <Route path= "/cart" component= {Cart} />
+
+          <Route path= "/aboutus" component= {AboutUs} />
+          <Route path= "/contact-us" component= {ContactUs} />
+          <Route path= "/privacypolicy" component= {PrivacyPolicy} />
+
+
           <Route path= "/notfound" component= {NotFound} />
           <Route path= "/" exact component= {MainPage} />
           <Redirect to="/notfound"/>

@@ -1,12 +1,15 @@
-import React from 'react';
+import React,{createContext} from 'react';
 
 
 
 
-const Cart = () => {
-    return ( <div>
-        <h1>Cart</h1>
-    </div> );
+const Cart = (product) => {
+  
+    return (
+        <div>
+            asasas
+        </div>
+    );
 }
  
 export default Cart;

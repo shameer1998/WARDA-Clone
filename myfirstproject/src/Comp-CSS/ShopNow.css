@@ -1,0 +1,23 @@
+.shop-now h1 {
+  text-align: center;
+}
+.shop-now {
+  text-align: center;
+}
+
+.shop-now a:visited,
+.shop-now a:link {
+  background-color: yellow;
+  color: black;
+  border: 2px solid yellow;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.video a:hover,
+.video a:active {
+  background-color: yellow;
+  color: white;
+}
